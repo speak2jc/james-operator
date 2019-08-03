@@ -1,0 +1,10 @@
+apiVersion: example.kenzan.com/v1alpha1
+kind: Examplekind
+metadata:
+  name: kenzan-example
+spec:
+  # Add fields here
+  count: 3
+  group: "Demo-App"
+  image: nginx
+  port: 80

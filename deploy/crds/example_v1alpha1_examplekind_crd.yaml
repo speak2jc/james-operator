@@ -1,0 +1,13 @@
+apiVersion: apiextensions.k8s.io/v1beta1
+kind: CustomResourceDefinition
+metadata:
+  name: examplekinds.example.kenzan.com
+spec:
+  group: example.kenzan.com
+  names:
+    kind: Examplekind
+    listKind: ExamplekindList
+    plural: examplekinds
+    singular: examplekind
+  scope: Namespaced
+  version: v1alpha1
